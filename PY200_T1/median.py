@@ -1,3 +1,7 @@
+"""
+    Program to find the median of the given list of numbers without using any libraries built-in functions
+"""
+
 # median of statistics Program
 lst = [10,83,18,0,19,69,10,18]
 count = 0           # to count the number of elements in it

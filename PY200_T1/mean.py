@@ -1,5 +1,5 @@
 """
-    Program to find the mean of the given list of numbers
+    Program to find the mean of the given list of numbers without using any libraries built-in functions
 """
 
 # average refers to mean in statistics

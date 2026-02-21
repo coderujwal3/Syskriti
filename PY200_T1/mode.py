@@ -1,3 +1,8 @@
+"""
+    Program to find the mode of the given list of numbers without using any libraries built-in functions
+"""
+
+
 lst = [10,83,18,0,19,69,10,18]
 # Dictionary to store the count of each item
 counts = {}
