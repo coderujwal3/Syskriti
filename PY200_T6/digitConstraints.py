@@ -20,8 +20,15 @@ for x in range(1, inp + 1):
     if '0' in s:
         continue    # jump the iteration, when hitting this condition
 
+    # counter to count the 3s in the integer (string format)
+    count = 0
+    # iterate in the integer (string format)
+    for digit in s:
+        if digit == '3':    # if the digit is 3 then increment the count by 1
+            count += 1
+    
     # Check if x contains exactly two 3s
-    if s.count('3') != 2:
+    if count != 2:
         continue    # jump the iteration, when hitting this condition
 
     # Initialize the total sum to zero
